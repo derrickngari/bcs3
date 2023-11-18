@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondo College Sacco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css" integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--Preloader---->
+    <div id="preloader"></div>
+
+    <!---Top Bar-->
+    <div class="topBar">
+        <div class="contact">
+            <a href="#">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <span>+254712345678</span>
+            </a>
+            <a href="#">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <span>info@gmail.com</span>
+            </a>
+            <a href="#">
+                <div class="icon"><i class="fa-solid fa-address-book"></i></div>
+                <span>PO BOX 123 Nairobi</span>
+            </a> 
+        </div>
+    </div>
+
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo">BCS</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+               <h2><br>It's <span>Bondo College Sacco</span> <br> <marquee behavior="" direction="left">Jijenge Tujijenge!</marquee></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eius ut blanditiis rem ab assumenda quidem ipsa beatae, 
+                    eum tempore! Mollitia neque aperiam nobis iusto fugit 
+                    asperiores quas, dolore.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div class="imageBox">
+                <img src="images/img1.jpg" class="bcs">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/img1.jpg" onclick="imageSlider('images/img1.jpg');changeCircleColor('#017143')" style="width: 60px; height: 60px;background-position: center; background-size: cover;"></li>
+            <li><img src="images/img2.jpg"  onclick="imageSlider('images/img2.jpg');changeCircleColor('#eb7495')" style="width: 60px; height: 60px;background-position: center; background-size: cover;"></li>
+            <li><img src="images/img3.jpg"  onclick="imageSlider('images/img3.jpg');changeCircleColor('#d752b1')" style="width: 60px; height: 60px;background-position: center; background-size: cover;"></li>
+        </ul>
+
+    <!-----   
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+    ----> 
+    </section>
+
+    <footer>
+        <h3>Get in Touch with us!</h3>
+        <form action="" method="post">
+            <div class="form">
+                <input type="email" name="email" placeholder="Email Address..">
+                <button type="submit">Subscribe Now</button>
+            </div>
+        </form>
+        <p>We won't share your data with anyone</p>
+
+        <h3>Follow us</h3>
+        <ul class="socialMedia">
+            <li><a href="#"><i class="fa-brands fa-facebook fa-beat"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter fa-beat"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram fa-beat"></i></a></li>
+            </ul>
+            <p style="margin-bottom: 10px;">&copy;2023 BCS All rights reserved | Designed by <a href="">Derrick </a><span style="color: #017143; font-weight: bold;">BCS</span></p>
+
+    </footer>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
